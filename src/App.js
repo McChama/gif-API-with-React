@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Route, Link } from 'wouter'
 import ListOfGifs from './components/ListOfGifs';
 import './App.css';
 
 function App() {
-  const [keyword, setkeyword] = useState('white')
-
   return (
     <div className="App">
       <section className="App-content">
